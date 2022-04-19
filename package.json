@@ -1,6 +1,6 @@
 {
   "name": "briws-simple",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -42,5 +42,8 @@
   },
   "main": "index.tsx",
   "author": "Briws <briws@pm.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nwb": "^0.25.2"
+  }
 }
