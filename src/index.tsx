@@ -1,1 +1,1 @@
-export { Briws } from "./src"
+export * from './components';

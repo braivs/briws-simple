@@ -3,8 +3,10 @@ const path = require('path');
 const glob = require('glob');
 const fse = require('fs-extra');
 /* eslint-enable @typescript-eslint/no-var-requires */
+
 const srcDir = path.join('./src');
 const distDir = path.join('./dist/js');
+
 const files = glob.sync('**/*.d.ts', {
     cwd: srcDir
 });
