@@ -10,6 +10,7 @@
     "@types/node": "^16.11.27",
     "@types/react": "^18.0.5",
     "@types/react-dom": "^18.0.1",
+    "cross-env": "^7.0.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
@@ -44,6 +45,11 @@
   "author": "Briws <briws@pm.me>",
   "license": "MIT",
   "devDependencies": {
-    "nwb": "^0.25.2"
+    "@babel/cli": "^7.17.6",
+    "@babel/plugin-proposal-export-default-from": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-plugin-typescript-to-proptypes": "^2.0.0",
+    "concurrently": "^7.1.0"
   }
 }
